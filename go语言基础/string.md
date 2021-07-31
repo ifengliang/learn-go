@@ -20,7 +20,7 @@ type stringStruct struct {
 ```go
 s:="hello, world"
 ```
-![string-01](img/string01.png)
+![string01](img/string01.png)
 
 ###  字符串和Byte切片
 
@@ -163,7 +163,7 @@ func main() {
 这个比较理想，可以当成可变字符使用，对内存的增长也有优化，如果能预估字符串的长度，还可以用 buffer.Grow() 接口来设置 capacity。
 5. 使用strings.Builder
 ```go
-	package main
+package main
 
 import (
 	"fmt"
