@@ -20,7 +20,7 @@ type stringStruct struct {
 ```go
 s:="hello, world"
 ```
-![string-01](img/string-01.png)
+![string-01](img/string01.png)
 
 ###  字符串和Byte切片
 
